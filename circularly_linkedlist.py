@@ -1,4 +1,4 @@
-#This program will get a list and rotate the list
+#This program will get a list and right-rotate the list
 
 class node(object):
     def __init__(self, data):
