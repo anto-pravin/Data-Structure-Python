@@ -1,3 +1,5 @@
+#This program will get a list and rotate the list
+
 class node(object):
     def __init__(self, data):
         self.data = data
@@ -59,4 +61,4 @@ s = int(input())
 a = circularly_linkedlist()
 for i in k:
     a.insert(i)
-print(*a.shift(s)[::-1])
+print(*a.shift(s))
